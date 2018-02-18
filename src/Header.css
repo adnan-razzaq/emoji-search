@@ -8,8 +8,21 @@
   color: #333;
 }
 
+.App-dark .component-header {
+  color: #ccc;
+}
+
+label {
+  -webkit-user-select: none;
+}
+
 .component-header img {
   position: relative;
   top: 6px;
   padding: 0 14px;
+}
+
+label {
+  font-size: large;
+  margin-left: 10px;
 }

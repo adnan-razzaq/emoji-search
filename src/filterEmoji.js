@@ -1,4 +1,4 @@
-import emojiList from './emojiList.json';
+const emojiList = require('./emojiList.json');
 
 export default function filterEmoji(searchText, maxResults) {
   return emojiList.filter((emoji) => {

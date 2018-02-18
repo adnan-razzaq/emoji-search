@@ -2,16 +2,16 @@
   "name": "emoji-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ahfarmer.github.io/emoji-search",
+  "homepage": ".",
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "react-scripts": "^1.0.17"
+    "react-scripts": "^2.0.0-next.47d2d941"
   },
   "dependencies": {
     "clipboard": "^1.7.1",
     "github-fork-ribbon-css": "^0.2.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16.3.0-alpha.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +22,18 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
   }
 }
